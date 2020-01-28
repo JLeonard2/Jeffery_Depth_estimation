@@ -3,7 +3,6 @@ from skimage import io
 import matplotlib.pyplot as plt
 #import PIL.Image as Image
 import os
-#from tsptbk import transPNG
 
 train_dir = os.path.join("D://自学//深度學習+Python//深度图像//代码//Superpixel//输入")
 train_image_names = os.listdir(train_dir)
